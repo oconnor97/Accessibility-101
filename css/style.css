@@ -25,7 +25,7 @@ body {
     background-color: #2a607c;
 }
 
-.header article {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header article ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header article ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
