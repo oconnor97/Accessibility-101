@@ -6,6 +6,8 @@ The goal of this assignment was to make caculated changes to the base code of th
 
 I found this a lot of fun and a very good way to get familair with ways to make the website make more sense to everyone and allow someone with disabilities to interact with the site without any issues.
 
+![](images/2021-01-28.png)
+
 
 ## Technologies 
 
