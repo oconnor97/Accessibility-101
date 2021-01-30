@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* organized the css to flow with the HTML */
 body {
     background-color: #d9dcd6;
 }
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
     background-color: #2a607c;
 }
-
+/* stlying for the navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,6 +41,19 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 a {
     color: #ffffff;
@@ -51,14 +64,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
 
 .float-left {
     float: left;
@@ -70,38 +76,8 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-/* refined class names to consolidate the css  */
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
 
-.marketing {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.marketing h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.marketing img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 /* This styles the bottom 3 blockls of content on the left side of the page */
 .strategies {
     margin-bottom: 20px;
@@ -120,6 +96,35 @@ p {
 .strategies h2{
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* refined class names to consolidate the css  */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+.marketing {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.marketing h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.marketing img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .footer {
